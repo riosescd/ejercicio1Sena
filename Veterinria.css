@@ -1,0 +1,101 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 1%;
+}
+body {
+  background-color: #82e0aa;
+}
+a{
+  text-decoration: none; 
+}
+
+.cabecera {
+  background-color: #fdebd0;
+ /*  background-image: url(https://fondosdepantallaymuchomas.files.wordpress.com/2013/10/45581-cabecera-4.png); */
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  border: solid;
+  top: 5%;
+}
+.cabecera h1{
+  color: rgb(226, 104, 43);
+}
+.logo {
+  width: 200px;
+  height: 100px;
+}
+
+.barra {
+  background-color: #fdebd0;
+  border-radius: 25px;
+  padding: 1%;
+  display: block;
+  text-align: center;
+  border: solid;
+}
+
+.barra a {
+   margin-left: 7%;
+  margin-right: 7%;
+  color:  rgb(226, 104, 43);;
+}
+
+.contenido {
+  background-color: #fdebd0;
+  border-radius: 10%;
+  padding-top: 5px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1%;
+  border: solid;
+}
+.centrar {
+  display: flex;
+}
+
+.ladoizquierdo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.imgcuidados {
+  width: 200px;
+  border: solid;
+}
+
+.imgviaje {
+  width: 200px;
+  border: solid;
+}
+
+.confo {
+  border-radius: 4%;
+  background-color: #fdebd0;
+  padding: 3%;
+  border: solid;
+}
+.formulario {
+  border-radius: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.formulario h3 {
+  color: rgb(226, 104, 43);
+  padding-bottom: 5%;
+}
+.control {
+  display: flex;
+}
+.main {
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  text-align: center;
+  border-radius: 20%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
